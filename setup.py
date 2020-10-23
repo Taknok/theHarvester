@@ -1,12 +1,11 @@
 from setuptools import setup, find_packages
-from theHarvester.lib.core import Core
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(
     name='theHarvester',
-    version=Core.version(),
+    version="3.2.0",
     author="Christian Martorella",
     author_email="cmartorella@edge-security.com",
     description="theHarvester is a very simple, yet effective tool designed to be used in the early stages of a penetration test",
